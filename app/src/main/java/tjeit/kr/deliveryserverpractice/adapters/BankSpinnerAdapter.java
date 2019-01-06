@@ -53,7 +53,7 @@ public class BankSpinnerAdapter extends ArrayAdapter<Bank> {
     public View getView(int position,  View convertView,  ViewGroup parent) {
         View row = convertView;
         if(row == null){
-            row = inf.inflate(R.layout.bank_spinner_list_item,null);
+            row = inf.inflate(R.layout.bank_spinner_selected_item,null);
         }
 
         ImageView logoImg = row.findViewById(R.id.logoImg);
