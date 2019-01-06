@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이디"/>
+
+    <EditText
+        android:id="@+id/userIdEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="아이디 입력"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호"/>
+
+    <EditText
+        android:id="@+id/passwordEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호 입력"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름"/>
+
+    <EditText
+        android:id="@+id/nameEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="이름 입력"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="폰번"/>
+
+    <EditText
+        android:id="@+id/phoneEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="폰번 입력 (010-1234-5678)"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이메일"/>
+
+    <EditText
+        android:id="@+id/emailEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="이메일 입력"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/signUpBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원 가입"/>
+
+
+
+</LinearLayout>

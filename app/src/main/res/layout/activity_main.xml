@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/firstNoticeLayout"
+        android:background="@color/lightNavy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/announcementTxt"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="공지사항"/>
+
+        <TextView
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01.02"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="13dp"
+            android:layout_height="22dp"
+            android:src="@mipmap/ic_launcher"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileImgView"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="25dp"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_color="@color/circleImageBorder"
+            app:civ_border_width="2dp"/>
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:background="@color/mainColor"
+            android:textColor="@color/white"
+            android:text="근무자"/>
+
+        <TextView
+            android:id="@+id/welcomeMsgTxt"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkTextColor"
+            android:gravity="center"
+            android:text="김성현님,\n오늘도 힘내주세요!"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/editProfileBtn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/darkNavy"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:text="프로필 설정"/>
+
+</LinearLayout>
+
+
+
+
+
+

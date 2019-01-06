@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="mainColor">#088AB7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="liteGray">#EBEBEB</color>
+    <color name="circleImageBorder">#D8D8D8</color>
+    <color name="darkTextColor">#202020</color>
+    <color name="darkNavy">#004290</color>
+    <color name="lightNavy">#0180AA</color>
+
+</resources>
